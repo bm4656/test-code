@@ -26,7 +26,7 @@ it('className prop으로 설정한 css class가 적용된다.', async () => {
 
   //className이란 내부 prop이나 state 값을 검증 (X)
   // 렌더링되는 DOM 구조가 올바르게 변경되었는지 확인 (O) -> 최종적으로 사용자가 보는 결과는 DOM
-  expect(screen.getByPlacehorderText('텍스트를 입력해 주세요.')).toHaveClass(
+  expect(screen.getByPlaceholderText('텍스트를 입력해 주세요.')).toHaveClass(
     'my-class',
   );
 });
